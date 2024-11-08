@@ -1,0 +1,58 @@
+.main-content h2,h3 {
+  color: #1a73e8;
+}
+
+.summary-section {
+  float: right;
+  width: 45%;
+  padding-left: 1px;
+}
+
+
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.timeline {
+  border-left: 2px solid #1a73e8;
+  padding-left: 20px;
+  margin-top: 20px;
+  color: black;
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -26px;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  background-color: #1a73e8;
+  border-radius: 50%;
+}
+.date {
+  background-color: #e0e7ff;
+  font-size: 14px;
+  color: #333;
+  padding: 3px 8px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.education-info, .internship-info {
+  font-size: 14px;
+  color: black;
+  margin-top: 5px;
+}
+.education-info ul, .internship-info ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  margin-top: 5px;
+}
