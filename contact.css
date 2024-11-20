@@ -1,0 +1,85 @@
+.content h4{
+    color: black;
+    text-align: center;
+}
+
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+
+.left, .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px; 
+}
+.info-box, .form-box {
+    background-color: whitesmoke;
+    border-radius: 5px; 
+    border: 5px outset red;
+    text-align: center;
+    padding: 20px;
+    flex: 1; 
+    min-height: 300px; 
+}
+.info {
+    margin-bottom: 20px;
+}
+.info h3 {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+.info p {
+    margin: 5px 0;
+    color: #333;
+}
+.map {
+    width: 100%;
+    height: 160px;
+    border: none;
+    border-radius: 8px;
+    border: 2px solid red; 
+}
+input, select, textarea, button {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+}
+.form-box input:first-of-type {
+    margin-top: 10px;
+}
+
+button {
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white; 
+    color: darkblue; 
+    border: 2px solid red;        
+  }
+  
+button:hover {
+    background-color: #8ef901;
+    color: white;
+    color: darkblue;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
